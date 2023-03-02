@@ -1,1 +1,4 @@
 个人自定义hosts
+domainlist.txt 要定时获取host的域名列表
+hosts 通过域名获取hosts后写入的文件，最终写入到系统的hosts中
+domainHost.js 获取域名host的脚本，使用nodejs 定时执行并把hosts结果push到git
